@@ -1,0 +1,57 @@
+[20-May-2020 07:15:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPluginsManager() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/colibri-page-builder/extend-builder/customizer/editor-data/index.php:163
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): ExtendBuilder\{closure}(Array)
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/colibri-page-builder/extend-builder/customizer/editor-data/index.php(221): apply_filters('extendbuilder_w...', Array)
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): ExtendBuilder\{closure}('')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(Array, Array)
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-admin/customize.php(173): do_action('customize_contr...')
+#7 {main}
+  thrown in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/colibri-page-builder/extend-builder/customizer/editor-data/index.php on line 163
+[20-May-2020 07:23:30 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /opt/bitnami/apps/wordpress/htdocs/wp-includes/functions.php on line 5088
+[20-May-2020 07:31:56 UTC] PHP Warning:  Use of undefined constant STAGS_OPTIONS_NAME - assumed 'STAGS_OPTIONS_NAME' (this will throw an Error in a future version of PHP) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/simple-tags/uninstall.php on line 9
+[20-May-2020 07:31:56 UTC] PHP Warning:  Use of undefined constant STAGS_OPTIONS_NAME - assumed 'STAGS_OPTIONS_NAME' (this will throw an Error in a future version of PHP) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/simple-tags/uninstall.php on line 10
+[20-May-2020 07:31:56 UTC] PHP Warning:  Use of undefined constant STAGS_OPTIONS_NAME_AUTO - assumed 'STAGS_OPTIONS_NAME_AUTO' (this will throw an Error in a future version of PHP) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/simple-tags/uninstall.php on line 12
+[20-May-2020 07:37:01 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /opt/bitnami/apps/wordpress/htdocs/wp-includes/functions.php on line 5088
+[20-May-2020 07:37:33 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /opt/bitnami/apps/wordpress/htdocs/wp-includes/functions.php on line 5088
+[20-May-2020 07:43:59 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /opt/bitnami/apps/wordpress/htdocs/wp-includes/functions.php on line 5088
+[20-May-2020 07:51:57 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 07:51:57 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 07:51:57 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 07:51:57 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:16:25 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /opt/bitnami/apps/wordpress/htdocs/wp-includes/functions.php on line 5088
+[20-May-2020 12:20:39 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:39 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:39 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:39 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:40 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:40 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:40 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:40 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:41 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:41 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:41 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:41 UTC] PHP Notice:  Undefined index: plugin in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/ninja-forms/includes/Integrations/EDD/class-extension-updater.php on line 189
+[20-May-2020 12:20:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPluginsManager() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/colibri-page-builder/extend-builder/customizer/editor-data/index.php:163
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): ExtendBuilder\{closure}(Array)
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/colibri-page-builder/extend-builder/customizer/editor-data/index.php(221): apply_filters('extendbuilder_w...', Array)
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): ExtendBuilder\{closure}('')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(Array, Array)
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-admin/customize.php(173): do_action('customize_contr...')
+#7 {main}
+  thrown in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/colibri-page-builder/extend-builder/customizer/editor-data/index.php on line 163
+[20-May-2020 12:21:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPluginsManager() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/colibri-page-builder/extend-builder/customizer/editor-data/index.php:163
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): ExtendBuilder\{closure}(Array)
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/colibri-page-builder/extend-builder/customizer/editor-data/index.php(221): apply_filters('extendbuilder_w...', Array)
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): ExtendBuilder\{closure}('')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(Array, Array)
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-admin/customize.php(173): do_action('customize_contr...')
+#7 {main}
+  thrown in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/colibri-page-builder/extend-builder/customizer/editor-data/index.php on line 163

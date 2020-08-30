@@ -1,0 +1,64 @@
+2020-05-04T09:48:16+00:00 CRITICAL Uncaught Error: Call to a member function setFilterType() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php:1824
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(1802): WPDataTable->prepareRenderingRules(Array)
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(2300): WPDataTable->fillFromData(Object(stdClass), Array)
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wdtconfigcontroller.php(50): WPDataTable::loadWpDataTable(1)
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/controllers/wdt_admin_ajax_actions.php(23): WDTConfigController::saveTableConfig(Object(stdClass))
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): wdtSaveTableWithColumns('')
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /opt/bitna in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php on line 1824
+
+2020-05-04T09:48:36+00:00 CRITICAL Uncaught Error: Call to a member function setFilterType() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php:1824
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(1802): WPDataTable->prepareRenderingRules(Array)
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(2300): WPDataTable->fillFromData(Object(stdClass), Array)
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wdtconfigcontroller.php(50): WPDataTable::loadWpDataTable(1)
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/controllers/wdt_admin_ajax_actions.php(23): WDTConfigController::saveTableConfig(Object(stdClass))
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): wdtSaveTableWithColumns('')
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /opt/bitna in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php on line 1824
+
+2020-05-04T09:48:47+00:00 CRITICAL Uncaught Error: Call to a member function setFilterType() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php:1824
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(1802): WPDataTable->prepareRenderingRules(Array)
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(2300): WPDataTable->fillFromData(Object(stdClass), Array)
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wdtconfigcontroller.php(92): WPDataTable::loadWpDataTable(1, NULL)
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/controllers/wdt_admin.php(368): WDTConfigController::loadTableConfig(1)
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/controllers/wdt_admin.php(395): wdtEdit()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): wdtConstructor('')
+#6 /opt/bitnami/apps/wordpress/htdocs/w in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php on line 1824
+
+2020-05-04T09:49:39+00:00 CRITICAL Uncaught Error: Call to a member function setFilterType() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php:1824
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(1802): WPDataTable->prepareRenderingRules(Array)
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(2300): WPDataTable->fillFromData(Object(stdClass), Array)
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wdtconfigcontroller.php(92): WPDataTable::loadWpDataTable(1, NULL)
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/controllers/wdt_admin.php(368): WDTConfigController::loadTableConfig(1)
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/controllers/wdt_admin.php(395): wdtEdit()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): wdtConstructor('')
+#6 /opt/bitnami/apps/wordpress/htdocs/w in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php on line 1824
+
+2020-05-04T14:08:30+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:08:32+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:08:32+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:13:19+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:13:20+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:13:21+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:14:04+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:14:05+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:14:06+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:14:15+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:14:17+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+
+2020-05-04T14:14:18+00:00 CRITICAL Cannot redeclare nutr_label_generate() (previously declared in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/easy-nutrition-facts-label/nutrition-facts-label.php:272) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/nutrition-facts-vitamins/nutrition-facts-vitamins.php on line 481
+

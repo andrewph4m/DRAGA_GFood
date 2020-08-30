@@ -1,0 +1,384 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Generator V2.2.1\n"
+"POT-Creation-Date: 2018-12-10 17:00+0530\n"
+"PO-Revision-Date: 2014-12-04 17:05+0530\n"
+"Last-Translator: FasterThemes <support@fasterthemes.com>\n"
+"Language-Team: FasterThemes <support@fasterthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "Epic 404 - Article Not Found"
+msgstr ""
+
+#: 404.php:10
+msgid "This is embarrassing. We could not find what you were looking for."
+msgstr ""
+
+#: 404.php:12
+msgid ""
+"Whatever you were looking for was not found, but maybe try looking again or "
+"search using the form below."
+msgstr ""
+
+#: archive.php:12
+msgid "Archives"
+msgstr ""
+
+#: author.php:9
+msgid "Author : All posts by "
+msgstr ""
+
+#: category.php:12 functions/theme-customization.php:700
+msgid "Category"
+msgstr ""
+
+#: comments.php:19
+#, php-format
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:19
+msgid "Powered By "
+msgstr ""
+
+#: footer.php:19
+msgid " Generator WordPress Theme"
+msgstr ""
+
+#: functions.php:27
+msgid "Top primary menu"
+msgstr ""
+
+#: functions.php:68
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:77
+msgid "Pro Feature"
+msgstr ""
+
+#: functions.php:77
+msgid "Generator Pro"
+msgstr ""
+
+#: functions/breadcrumbs.php:12 functions/breadcrumbs.php:15
+msgid "Home"
+msgstr ""
+
+#: functions/breadcrumbs.php:20
+msgid "Archive by category"
+msgstr ""
+
+#: functions/breadcrumbs.php:22
+msgid "Search Results For "
+msgstr ""
+
+#: functions/breadcrumbs.php:81
+msgid "Posts tagged"
+msgstr ""
+
+#: functions/breadcrumbs.php:85
+msgid "Articles Published by"
+msgstr ""
+
+#: functions/breadcrumbs.php:87
+msgid "Error 404"
+msgstr ""
+
+#: functions/breadcrumbs.php:93
+msgid "Page"
+msgstr ""
+
+#: functions/theme-customization.php:76 functions/theme-customization.php:77
+msgid "General Settings"
+msgstr ""
+
+#: functions/theme-customization.php:83
+msgid "Header & Logo"
+msgstr ""
+
+#: functions/theme-customization.php:89
+msgid "Top Header"
+msgstr ""
+
+#: functions/theme-customization.php:103
+msgid "Email"
+msgstr ""
+
+#: functions/theme-customization.php:105
+msgid "youremail@youremail.com"
+msgstr ""
+
+#: functions/theme-customization.php:120 functions/theme-customization.php:151
+msgid "Icon"
+msgstr ""
+
+#: functions/theme-customization.php:134
+msgid "Phone"
+msgstr ""
+
+#: functions/theme-customization.php:136
+msgid "123 456 7890"
+msgstr ""
+
+#: functions/theme-customization.php:165
+msgid "Social Icon 1"
+msgstr ""
+
+#: functions/theme-customization.php:167 functions/theme-customization.php:197
+#: functions/theme-customization.php:227 functions/theme-customization.php:257
+#: functions/theme-customization.php:287
+msgid "http://www.twitter.com/username/"
+msgstr ""
+
+#: functions/theme-customization.php:195
+msgid "Social Icon 2"
+msgstr ""
+
+#: functions/theme-customization.php:225
+msgid "Social Icon 3"
+msgstr ""
+
+#: functions/theme-customization.php:255
+msgid "Social Icon 4"
+msgstr ""
+
+#: functions/theme-customization.php:285
+msgid "Social Icon 5"
+msgstr ""
+
+#: functions/theme-customization.php:308
+msgid "Blog(Archive) Page"
+msgstr ""
+
+#: functions/theme-customization.php:319 functions/theme-customization.php:397
+msgid "Please check this box, if you want to hide post meta tag"
+msgstr ""
+
+#: functions/theme-customization.php:329 functions/theme-customization.php:417
+msgid "Please check this box, if you want to hide post image"
+msgstr ""
+
+#: functions/theme-customization.php:339
+msgid "Please check this box, if you want to hide read more link"
+msgstr ""
+
+#: functions/theme-customization.php:352
+msgid "Post Content Limit"
+msgstr ""
+
+#: functions/theme-customization.php:365
+msgid "Post Button Text"
+msgstr ""
+
+#: functions/theme-customization.php:375 functions/theme-customization.php:427
+msgid "Display Sidebar"
+msgstr ""
+
+#: functions/theme-customization.php:386
+msgid "Single Post Page"
+msgstr ""
+
+#: functions/theme-customization.php:407
+msgid "Please check this box, if you want to hide comment form"
+msgstr ""
+
+#: functions/theme-customization.php:440 functions/theme-customization.php:441
+msgid "Front Page Settings"
+msgstr ""
+
+#: functions/theme-customization.php:448
+msgid "Slider Section"
+msgstr ""
+
+#: functions/theme-customization.php:459 functions/theme-customization.php:518
+#: functions/theme-customization.php:608 functions/theme-customization.php:674
+msgid "Please check this box, if you want to hide this section."
+msgstr ""
+
+#: functions/theme-customization.php:480
+msgid "Upload Image Size : 1299 x 455"
+msgstr ""
+
+#: functions/theme-customization.php:499
+msgid "Slide Link"
+msgstr ""
+
+#: functions/theme-customization.php:507
+msgid "About Us Section"
+msgstr ""
+
+#: functions/theme-customization.php:530 functions/theme-customization.php:686
+msgid "Title"
+msgstr ""
+
+#: functions/theme-customization.php:532 functions/theme-customization.php:625
+msgid "Enter title"
+msgstr ""
+
+#: functions/theme-customization.php:545
+msgid "Short Description"
+msgstr ""
+
+#: functions/theme-customization.php:548
+msgid "Enter Short Description"
+msgstr ""
+
+#: functions/theme-customization.php:565
+msgid "Upload Image Size : 181 x 181"
+msgstr ""
+
+#: functions/theme-customization.php:586
+msgid "Upload Image Size : 1350 x 92"
+msgstr ""
+
+#: functions/theme-customization.php:597
+msgid "Key Features Section"
+msgstr ""
+
+#: functions/theme-customization.php:623
+msgid "Tab "
+msgstr ""
+
+#: functions/theme-customization.php:640
+msgid "Enter Description"
+msgstr ""
+
+#: functions/theme-customization.php:663
+msgid "Recent Posts Section"
+msgstr ""
+
+#: functions/theme-customization.php:688
+msgid "Enter Title"
+msgstr ""
+
+#: functions/theme-customization.php:707
+msgid "Footer Settings"
+msgstr ""
+
+#: functions/theme-customization.php:718
+msgid "Copyright Text"
+msgstr ""
+
+#: functions/theme-customization.php:719
+msgid ""
+"Some text regarding copyright of your site, you would like to display in the "
+"footer."
+msgstr ""
+
+#: functions/theme-default-setup.php:32
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions/theme-default-setup.php:59
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions/theme-default-setup.php:61
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: functions/theme-default-setup.php:68
+msgid "Footer Area One"
+msgstr ""
+
+#: functions/theme-default-setup.php:70
+msgid "Footer Area One that appears on the left."
+msgstr ""
+
+#: functions/theme-default-setup.php:78
+msgid "Footer Area Two"
+msgstr ""
+
+#: functions/theme-default-setup.php:80
+msgid "Footer Area Two that appears on the left."
+msgstr ""
+
+#: functions/theme-default-setup.php:88
+msgid "Footer Area Three"
+msgstr ""
+
+#: functions/theme-default-setup.php:90
+msgid "Footer Area Three that appears on the left."
+msgstr ""
+
+#: functions/theme-default-setup.php:98
+msgid "Footer Area Four"
+msgstr ""
+
+#: functions/theme-default-setup.php:100
+msgid "Footer Area Four that appears on the left."
+msgstr ""
+
+#: functions/theme-default-setup.php:130
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions/theme-default-setup.php:137
+#, php-format
+msgid " %1$s  %3$s  %4$s "
+msgstr ""
+
+#: functions/theme-default-setup.php:140
+#, php-format
+msgid "%1$s  %3$s  %4$s "
+msgstr ""
+
+#: functions/theme-default-setup.php:143
+#, php-format
+msgid " %3$s  %4$s"
+msgstr ""
+
+#: functions/theme-default-setup.php:173
+msgid "Pingback:"
+msgstr ""
+
+#: functions/theme-default-setup.php:175
+msgid "Edit"
+msgstr ""
+
+#: functions/theme-default-setup.php:200
+msgid "Reply"
+msgstr ""
+
+#: header.php:43
+msgid "Search the site"
+msgstr ""
+
+#: header.php:67
+msgid "Toggle navigation"
+msgstr ""
+
+#: page-template/frontpage.php:102
+msgid "No posts found"
+msgstr ""
+
+#: search.php:9
+msgid "Search Results for"
+msgstr ""
+
+#: single.php:51
+msgid "Pages:"
+msgstr ""
+
+#: tag.php:10
+msgid "Tag"
+msgstr ""
